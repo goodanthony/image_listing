@@ -26,11 +26,16 @@ Or install it yourself as:
   require 'image_listing'
   @image_list   = ImageListing::ImageListing.new
 
-  @image_list.get_the_sizes_of_images_limited("http://iamfree.com", 5)
+  info_array = @image_list.get_the_sizes_of_images_limited("http://iamfree.com", 5)
 
  ```
   [300, 429, "http://graphics.iamfree.com/artworks/491/medium/a-house-in-the-wild-side.jpg?1386595326", 128700]
+
   width, height, image url, width x height(screen real estate taken in pixcels)
+
+  get only image list  
+
+  info_array.transpose[2]
 
 ## Contributing
 
