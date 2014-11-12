@@ -18,5 +18,5 @@ class ImageListingTest < Minitest::Test
      assert_equal array.count,  5
    end
 
- 
+
 end

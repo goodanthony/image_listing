@@ -1,7 +1,7 @@
 # ImageListing
 
 
-Image finder goes to the given web page and gets a list of largest images(by screen real estate each image taken; width x height) on that page
+Image finder goes to a given web page and gets a list of largest images(by screen real estate each image taken; width x height) on that page
 
 ## Installation
 
@@ -21,7 +21,16 @@ Or install it yourself as:
 
 ## Usage
 
- require 'image_listing'
+
+ ```ruby
+  require 'image_listing'
+  @image_list   = ImageListing::ImageListing.new
+
+  @image_list.get_the_sizes_of_images_limited("http://iamfree.com", 5)
+
+ ```
+  [300, 429, "http://graphics.iamfree.com/artworks/491/medium/a-house-in-the-wild-side.jpg?1386595326", 128700]
+  width, height, image url, width x height(screen real estate taken in pixcels)
 
 ## Contributing
 

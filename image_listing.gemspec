@@ -6,7 +6,7 @@ require 'image_listing/version'
 Gem::Specification.new do |spec|
   spec.name          = "image_listing"
   spec.version       = ImageListing::VERSION
-  spec.authors       = ["anthony"]
+  spec.authors       = ["anthony de silva"]
   spec.email         = ["anthony@iamfree.com"]
   spec.summary       = %q{Gets a list of largest images from a web page}
   spec.description   = %q{Image finder goes to the given web page and gets a list of largest images on that page}

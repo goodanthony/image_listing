@@ -45,7 +45,7 @@ module ImageListing
        end
        list = a.sort {|x,y| y[0] <=> x[0]}
        list_sorted = a.sort {|x,y| y[1] <=> x[1]}
-
+     
      end
 
      def get_the_sizes_of_images_limited(url, n)
@@ -65,6 +65,6 @@ module ImageListing
 
 
 
-   #p ImageListing.new.get_the_sizes_of_images_limited("http://iamfree.com", 5)
+   p ImageListing.new.get_the_sizes_of_images_limited("http://iamfree.com", 5)
 
 end
