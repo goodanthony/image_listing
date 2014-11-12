@@ -28,6 +28,8 @@ Or install it yourself as:
 
   info_array = @image_list.get_the_sizes_of_images_limited("http://iamfree.com", 5)
 
+  #to get an array of image urls
+  info_array.transpose[2]
  ```
   [300, 429, "http://graphics.iamfree.com/artworks/491/medium/a-house-in-the-wild-side.jpg?1386595326", 128700]
 
@@ -35,7 +37,7 @@ Or install it yourself as:
 
   get only image list  
 
-  info_array.transpose[2]
+
 
 ## Contributing
 
