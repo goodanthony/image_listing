@@ -38,6 +38,15 @@ Or install it yourself as:
   get only image list  
 
 
+  To get all images from page
+
+  ```ruby
+  #images with sizes
+  images_array = @image_list.get_the_sizes_of_images
+
+  #then list of images
+  images_array.transpose[2]
+ ```
 
 ## Contributing
 
