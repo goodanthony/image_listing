@@ -65,6 +65,6 @@ module ImageListing
 
 
 
-   p ImageListing.new.get_the_sizes_of_images("http://iamfree.com")
+   #p ImageListing.new.get_the_sizes_of_images("http://iamfree.com")
 
 end
